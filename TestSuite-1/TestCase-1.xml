@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="16ba564f-6fa3-46ff-9069-35a600d0d59b" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="16ba564f-6fa3-46ff-9069-35a600d0d59bfileName">TestCase-1</con:setting>
+  </con:settings>
+  <con:testStep type="groovy" name="Groovy Script" id="7a4b9198-8624-4724-b6c7-af1f8aa17baa">
+    <con:settings/>
+    <con:config>
+      <script>log.info("Master branch initial script")</script>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
