@@ -23,6 +23,19 @@ log.info("Branch1")</script>
       <con:parameters/>
     </con:config>
   </con:testStep>
+  <con:testStep type="httprequest" name="HTTP Request 2" id="9c9d5eee-70fb-4abe-92a5-2a4ea2146a7c">
+    <con:settings/>
+    <con:config method="GET" xsi:type="con:HttpRequest" id="5119b997-12ec-411f-8db4-5e127701fee5" name="HTTP Request 2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:settings/>
+      <con:endpoint/>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
