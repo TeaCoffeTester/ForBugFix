@@ -10,6 +10,19 @@
 log.info("Br2")</script>
     </con:config>
   </con:testStep>
+  <con:testStep type="httprequest" name="HTTP Request" id="377cda73-59fc-44a7-909b-d05c2b312358">
+    <con:settings/>
+    <con:config method="GET" xsi:type="con:HttpRequest" id="5da86d88-3be9-48ed-891f-11c8c0f16c45" name="HTTP Request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:settings/>
+      <con:endpoint/>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
